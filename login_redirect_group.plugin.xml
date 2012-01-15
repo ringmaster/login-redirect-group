@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>Login Redirect Group</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	<url>http://habariproject.org/</url>
+	<author url="http://habariproject.org/">Habari Community</author>
+	<version>0.6</version>
+	<description><![CDATA[Redirects users to specific pages after logging in, based on membership in a user group.]]></description>
+	<copyright>2009</copyright>
+
+	<help>
+	<value><![CDATA[
+	In the plugin configuration, set the URL to which a user with a permission token is redirected after log in.
+	Users can also have individual redirect pages set via their user pages.
+	]]></value>
+	</help>
+
+	<guid>81e71879-e2e2-424a-bd3e-11718f359569</guid>
+</pluggable>
+ 
