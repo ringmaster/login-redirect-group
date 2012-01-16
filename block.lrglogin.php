@@ -1,4 +1,5 @@
 <?php if(!$content->loggedin): ?>
+<?php Plugins::act( 'theme_loginform_before' ); ?>
 <form method="post" action="<?php URL::out( 'auth', array( 'page' => 'login' ) ); ?>">
 	<input type="hidden" name="blocklogin" value="1">
 	<p>
@@ -13,4 +14,5 @@
 	</p>
 
 </form>
+<?php Plugins::act( 'theme_loginform_after' ); ?>
 <?php endif; ?>
